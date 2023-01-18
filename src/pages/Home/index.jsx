@@ -1,5 +1,5 @@
 function Home() {
-    return <div>Page d'accueil Kasa🏡</div>;
+    return 'home page';
 }
 
 export default Home;
