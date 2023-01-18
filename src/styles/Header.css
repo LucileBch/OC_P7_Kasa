@@ -9,10 +9,9 @@
     width: 210px;
 }
 
-.kasa-header-nav {
-    width: 309px;
-    justify-content: space-around;
+.kasa-header-list {
     display: flex;
+    gap: 57px;
 }
 
 .kasa-header-link {
@@ -33,8 +32,8 @@
         width: 145px;
     }
 
-    .kasa-header-nav {
-        width: 140px;
+    .kasa-header-list {
+        gap: 10px;
     }
 
     .kasa-header-link {

@@ -6,13 +6,19 @@ function Header() {
     return (
         <header className="kasa-header">
             <img src={logo} alt="logo Kasa" className="kasa-header-logo"></img>
-            <nav className="kasa-header-nav">
-                <Link to="/" className="kasa-header-link">
-                    Accueil
-                </Link>
-                <Link to="/about" className="kasa-header-link">
-                    A propos
-                </Link>
+            <nav>
+                <ul className="kasa-header-list">
+                    <li>
+                        <Link to="/" className="kasa-header-link">
+                            Accueil
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/about" className="kasa-header-link">
+                            A propos
+                        </Link>
+                    </li>
+                </ul>
             </nav>
         </header>
     );
