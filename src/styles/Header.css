@@ -5,11 +5,14 @@
     margin: 40px 100px 60px 100px;
 }
 
+.kasa-header-logo {
+    width: 210px;
+}
+
 .kasa-header-nav {
     width: 309px;
     justify-content: space-around;
     display: flex;
-    text-decoration: none;
 }
 
 .kasa-header-link {
@@ -19,4 +22,23 @@
     font-size: 24px;
     line-height: 34px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .kasa-header {
+        margin: 20px;
+    }
+
+    .kasa-header-logo {
+        width: 145px;
+    }
+
+    .kasa-header-nav {
+        width: 140px;
+    }
+
+    .kasa-header-link {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
 }

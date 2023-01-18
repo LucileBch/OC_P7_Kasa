@@ -5,7 +5,7 @@ import logo from '../../assets/header-logo.svg';
 function Header() {
     return (
         <header className="kasa-header">
-            <img src={logo} alt="logo Kasa"></img>
+            <img src={logo} alt="logo Kasa" className="kasa-header-logo"></img>
             <nav className="kasa-header-nav">
                 <Link to="/" className="kasa-header-link">
                     Accueil
