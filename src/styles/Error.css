@@ -1,0 +1,43 @@
+.error-container {
+    color: #ff6060;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin-top: 174px;
+    margin-bottom: 159px;
+    text-align: center;
+}
+
+.error-404 {
+    font-weight: 700;
+    font-size: 288px;
+}
+
+.error-msg {
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 66px;
+    margin-bottom: 183px;
+}
+
+.error-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ff6060;
+}
+
+@media screen and (max-width: 768px) {
+    .error-404 {
+        font-size: 96px;
+    }
+
+    .error-msg {
+        font-size: 18px;
+        margin-top: 11px;
+        margin-bottom: 133px;
+    }
+
+    .error-link {
+        font-size: 14px;
+    }
+}
