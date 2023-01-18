@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
+import '../../styles/Error.css';
+
 function Error() {
     return (
-        <div>
+        <div className="error-container">
             <h1 className="error-404"> 404 </h1>
             <h2 className="error-msg">
                 Oups la page que vous demandez n'existe pas.
