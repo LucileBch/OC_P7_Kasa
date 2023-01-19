@@ -1,0 +1,33 @@
+.banner-home {
+    display: flex;
+    justify-content: center;
+    margin: 68px auto 43px auto;
+    width: 90%;
+    border-radius: 25px;
+    mix-blend-mode: darken;
+    background: url('../assets/banner-home.png');
+    background-size: 100% 100%;
+}
+
+.banner-home h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 68px;
+    margin: 78px 0;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-home {
+        border-radius: 10px;
+        justify-content: flex-start;
+    }
+
+    .banner-home h2 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 30px 0;
+    }
+}
