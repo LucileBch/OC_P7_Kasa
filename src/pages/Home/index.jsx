@@ -1,5 +1,7 @@
+import Banner from '../../components/Banner';
+
 function Home() {
-    return 'home page';
+    return <Banner path="home" />;
 }
 
 export default Home;

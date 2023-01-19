@@ -1,5 +1,7 @@
+import Banner from '../../components/Banner';
+
 function About() {
-    return <div>A Propos</div>;
+    return <Banner path="about" />;
 }
 
 export default About;
