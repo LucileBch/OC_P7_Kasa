@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../../styles/Header.css';
 import logo from '../../assets/header-logo.svg';
 
@@ -9,14 +9,28 @@ function Header() {
             <nav>
                 <ul className="kasa-header-list">
                     <li>
-                        <Link to="/" className="kasa-header-link">
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'kasa-link-active'
+                                    : 'kasa-link-inactive'
+                            }
+                        >
                             Accueil
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/about" className="kasa-header-link">
+                        <NavLink
+                            to="/about"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? 'kasa-link-active'
+                                    : 'kasa-link-inactive'
+                            }
+                        >
                             A propos
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>

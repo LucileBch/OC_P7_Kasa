@@ -14,13 +14,22 @@
     gap: 57px;
 }
 
-.kasa-header-link {
+.kasa-link-inactive {
     color: #ff6060;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 34px;
     text-decoration: none;
+}
+
+.kasa-link-active {
+    color: #ff6060;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
@@ -36,7 +45,8 @@
         gap: 10px;
     }
 
-    .kasa-header-link {
+    .kasa-link-active,
+    .kasa-link-inactive {
         font-size: 12px;
         text-transform: uppercase;
     }
