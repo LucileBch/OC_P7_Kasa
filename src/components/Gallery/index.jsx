@@ -1,16 +1,13 @@
 import { appartList } from '../../datas/appartList';
 import Card from '../Card';
+import '../../styles/Gallery.css';
 
 function Gallery() {
     return (
-        <section>
-            <ul>
-                {appartList.map(({ id, cover, title }) => (
-                    <li key={id}>
-                        <Card cover={cover} title={title} />
-                    </li>
-                ))}
-            </ul>
+        <section className="home-gallery">
+            {appartList.map(({ id, cover, title }) => (
+                <Card cover={cover} title={title} />
+            ))}
         </section>
     );
 }
