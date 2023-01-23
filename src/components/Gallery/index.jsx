@@ -6,7 +6,7 @@ function Gallery() {
     return (
         <section className="home-gallery">
             {appartList.map(({ id, cover, title }) => (
-                <Card cover={cover} title={title} />
+                <Card key={id} cover={cover} title={title} />
             ))}
         </section>
     );

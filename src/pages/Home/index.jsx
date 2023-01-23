@@ -5,14 +5,14 @@ import Footer from '../../components/Footer';
 
 function Home() {
     return (
-        <body>
+        <div>
             <Header />
             <main>
                 <Banner path="home" />;
                 <Gallery />
             </main>
             <Footer />
-        </body>
+        </div>
     );
 }
 
