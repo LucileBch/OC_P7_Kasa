@@ -35,12 +35,14 @@
     .banner-home {
         border-radius: 10px;
         justify-content: flex-start;
+        margin: 28px auto 22px auto;
     }
 
     .banner-home h2 {
         font-size: 24px;
         line-height: 24px;
         margin: 30px 0;
+        margin: 30px 102px 30px 16px;
     }
 
     .banner-about {
