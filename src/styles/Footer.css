@@ -1,5 +1,7 @@
 .kasa-footer {
     background-color: #000000;
+    margin: auto;
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
     align-items: center;

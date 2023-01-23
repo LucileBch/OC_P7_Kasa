@@ -1,6 +1,6 @@
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
-import Gallery from '../../components/Gallery';
+import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
             <Header />
             <main>
                 <Banner path="home" />;
-                <Gallery />
+                <Card />
             </main>
             <Footer />
         </div>
