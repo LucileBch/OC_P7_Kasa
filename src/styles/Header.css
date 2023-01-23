@@ -37,6 +37,7 @@
 @media screen and (max-width: 768px) {
     .kasa-header {
         margin: 20px;
+        padding: 0;
     }
 
     .kasa-header-logo {
