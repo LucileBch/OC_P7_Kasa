@@ -1,16 +1,12 @@
 import '../../styles/Banner.css';
 
-function Banner(props) {
-    const path = props.path;
-    if (path === 'home') {
-        return (
-            <section className="banner-home">
-                <h2>Chez vous, partout et ailleurs</h2>
-            </section>
-        );
-    } else if (path === 'about') {
-        return <section className="banner-about"></section>;
-    }
+function Banner({ imagebanner, title }) {
+    return (
+        <section className="banner">
+            <img src={imagebanner} alt="landscape" className="banner-picture" />
+            <h2 className="banner-title">{title}</h2>
+        </section>
+    );
 }
 
 export default Banner;
