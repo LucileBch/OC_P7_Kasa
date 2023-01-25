@@ -5,7 +5,13 @@ import logo from '../../assets/header-logo.svg';
 function Header() {
     return (
         <header className="kasa-header">
-            <img src={logo} alt="logo Kasa" className="kasa-header-logo"></img>
+            <NavLink to="/">
+                <img
+                    src={logo}
+                    alt="logo Kasa"
+                    className="kasa-header-logo"
+                ></img>
+            </NavLink>
             <nav>
                 <ul className="kasa-header-list">
                     <li>
