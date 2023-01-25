@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom';
 
 function Logement() {
-    const { idLogement } = useParams(); // à finaliser
+    const { id } = useParams();
     return (
         <div>
-            <h1>Fiche logement {idLogement} </h1>
+            <h1>Fiche logement {id} </h1>
         </div>
     );
 }
