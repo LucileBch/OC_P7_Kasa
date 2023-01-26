@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { appartList } from '../../datas/appartList';
 import Header from '../../components/Header';
 import Tag from '../../components/Tag';
+import Rate from '../../components/Rate';
 import Footer from '../../components/Footer';
 import Error from '../../pages/Error';
 
@@ -15,8 +16,12 @@ function Logement() {
         <div>
             <Header />
             <section>
-                <h1>Fiche logement {id} </h1>
+                <h1>{appartDisplay.title} </h1>
+                <p>{appartDisplay.location}</p>
+            </section>
+            <section>
                 <Tag tags={appartDisplay.tags} />
+                <Rate starts={appartDisplay.rating} />
             </section>
 
             <Footer />
