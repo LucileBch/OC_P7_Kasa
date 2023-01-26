@@ -19,7 +19,7 @@ function Collapse(props) {
                     <img src={arrowDown} alt="opening arrow" />
                 )}
             </div>
-            {isOpen && <p>{props.content}</p>}
+            {isOpen && <div>{props.content}</div>}
         </article>
     );
 }
