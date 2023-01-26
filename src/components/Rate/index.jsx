@@ -6,11 +6,11 @@ function Rate({ stars }) {
 
     return (
         <div>
-            {range.map((rangeElem) =>
+            {range.map((rangeElem, star) =>
                 stars >= rangeElem ? (
-                    <img src={fullStar} alt="pink star" />
+                    <img src={fullStar} alt="pink star" key={star} />
                 ) : (
-                    <img src={emptyStar} alt="grey star" />
+                    <img src={emptyStar} alt="grey star" key={star} />
                 )
             )}
         </div>
