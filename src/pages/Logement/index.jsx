@@ -21,7 +21,7 @@ function Logement() {
             </section>
             <section>
                 <Tag tags={appartDisplay.tags} />
-                <Rate starts={appartDisplay.rating} />
+                <Rate stars={appartDisplay.rating} />
             </section>
 
             <Footer />
