@@ -7,7 +7,7 @@ import Error from '../../pages/Error';
 
 function Logement() {
     const { id } = useParams();
-    const appartDisplay = appartList.filter((appart) => appart.id === id);
+    const appartDisplay = appartList.find((appart) => appart.id === id);
 
     if (!appartDisplay) return <Error />;
 
@@ -15,11 +15,10 @@ function Logement() {
         <div>
             <Header />
             <section>
-                {appartDisplay.map(({ id, tags }) => (
-                    <Tag key={id} tags={tags} />
-                ))}
+                <h1>Fiche logement {id} </h1>
+                <Tag tags={appartDisplay.tags} />
             </section>
-            <h1>Fiche logement {id} </h1>
+
             <Footer />
         </div>
     );
