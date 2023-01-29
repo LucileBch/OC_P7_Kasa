@@ -1,7 +1,11 @@
-import { NavLink } from 'react-router-dom';
-import '../../styles/Header.css';
-import logo from '../../assets/header-logo.svg';
+/***     HEADER COMPONENT     ***/
 
+/* Importing NavLink to navigate and asset */
+import { NavLink } from 'react-router-dom';
+import logo from '../../assets/header-logo.svg';
+import '../../styles/Header.css';
+
+/* Header function */
 function Header() {
     return (
         <header className="kasa-header">
@@ -44,4 +48,5 @@ function Header() {
     );
 }
 
+/* Exporting Header component */
 export default Header;
