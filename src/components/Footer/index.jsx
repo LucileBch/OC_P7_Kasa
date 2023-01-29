@@ -1,6 +1,10 @@
+/***     FOOTER COMPONENT     ***/
+
+/* Importing assets */
 import '../../styles/Footer.css';
 import logo from '../../assets/footer-logo.svg';
 
+/* Footer function */
 function Footer() {
     return (
         <footer className="kasa-footer">
@@ -12,4 +16,5 @@ function Footer() {
     );
 }
 
+/* Exporting Footer component */
 export default Footer;
