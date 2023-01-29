@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useState } from 'react';
 import arrowLeft from '../../assets/arrow-left.png';
 import arrowRight from '../../assets/arrow-right.png';
@@ -15,38 +16,33 @@ function Slider({ slides }) {
         setCurrentIndex(newIndex);
     };
 
+    /* useMemo to improve performance */
+    const currentSlide = useMemo(
+        () => slides[currentIndex],
+        [currentIndex, slides]
+    );
     return (
         <div>
-            <img
-                src={arrowLeft}
-                alt="arrow to switch to the left"
-                onClick={goToPrevious}
-                className={slides.length > 1 ? 'arrow-left' : 'hidden-arrow'}
-            />
-
-            <img
-                src={arrowRight}
-                alt="arrow to switch to the right"
-                onClick={goToNext}
-                className={slides.length > 1 ? 'arrow-right' : 'hidden-arrow'}
-            />
+            {slides.length > 1 && (
+                <div>
+                    <img
+                        src={arrowLeft}
+                        alt="arrow to switch to the left"
+                        onClick={goToPrevious}
+                    />
+                    <img
+                        src={arrowRight}
+                        alt="arrow to switch to the right"
+                        onClick={goToNext}
+                    />
+                </div>
+            )}
 
             <div>
-                {slides.map((slide, slideIndex) => {
-                    return (
-                        <div key={slideIndex}>
-                            {slideIndex === currentIndex && (
-                                <img src={slide} alt="appartement interior" />
-                            )}
-
-                            {slideIndex === currentIndex && (
-                                <span>
-                                    {currentIndex + 1} / {slides.length}
-                                </span>
-                            )}
-                        </div>
-                    );
-                })}
+                <img src={currentSlide} alt="appartement interior" />
+                <span>
+                    {currentIndex + 1} / {slides.length}
+                </span>
             </div>
         </div>
     );
