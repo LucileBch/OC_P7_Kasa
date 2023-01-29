@@ -1,11 +1,12 @@
 import { useParams } from 'react-router-dom';
 import { appartList } from '../../datas/appartList';
 import Header from '../../components/Header';
+import Slider from '../../components/Slider';
 import Tag from '../../components/Tag';
 import Rate from '../../components/Rate';
+import Collapse from '../../components/Collapse';
 import Footer from '../../components/Footer';
 import Error from '../../pages/Error';
-import Collapse from '../../components/Collapse';
 
 function Logement() {
     const { id } = useParams();
@@ -18,6 +19,7 @@ function Logement() {
             <Header />
             <section>
                 <div>
+                    <Slider slides={appartDisplay.pictures} />
                     <h1>{appartDisplay.title} </h1>
                     <p>{appartDisplay.location}</p>
                 </div>
