@@ -1,4 +1,4 @@
-/*     ROUTING LOGIC     */
+/***     ROUTING LOGIC     ***/
 
 /* Importing React routes and the different pages */
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

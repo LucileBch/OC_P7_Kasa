@@ -1,4 +1,4 @@
-/*     BANNER COMPONENT     */
+/***     BANNER COMPONENT     ***/
 
 import '../../styles/Banner.css';
 
