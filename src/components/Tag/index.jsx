@@ -1,3 +1,7 @@
+/***     TAG COMPONENT     ***/
+
+/* Tag function using tags prop */
+/* Using .maps to display a list of tags */
 function Tag({ tags }) {
     return (
         <ul>
@@ -8,4 +12,5 @@ function Tag({ tags }) {
     );
 }
 
+/* Exporting Tag component */
 export default Tag;
