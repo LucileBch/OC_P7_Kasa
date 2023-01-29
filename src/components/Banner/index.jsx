@@ -1,5 +1,8 @@
+/*     BANNER COMPONENT     */
+
 import '../../styles/Banner.css';
 
+/* Function banner using props imagebanner and title */
 function Banner({ imagebanner, title }) {
     return (
         <section className="banner">
@@ -9,4 +12,5 @@ function Banner({ imagebanner, title }) {
     );
 }
 
+/* Exporting function Banner */
 export default Banner;
