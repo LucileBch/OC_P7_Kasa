@@ -11,7 +11,7 @@ import bannerHome from '../../assets/banner-home.png';
 /* Props to pass datas in Banner child component */
 function Home() {
     return (
-        <body>
+        <div>
             <Header />
             <main>
                 <Banner
@@ -21,7 +21,7 @@ function Home() {
                 <Card />
             </main>
             <Footer />
-        </body>
+        </div>
     );
 }
 

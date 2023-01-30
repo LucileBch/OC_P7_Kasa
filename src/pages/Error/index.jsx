@@ -9,7 +9,7 @@ import '../../styles/Error.css';
 /* Error function to display the page */
 function Error() {
     return (
-        <body>
+        <div>
             <Header />
             <main>
                 <section className="error-container">
@@ -23,7 +23,7 @@ function Error() {
                 </section>
             </main>
             <Footer />
-        </body>
+        </div>
     );
 }
 
