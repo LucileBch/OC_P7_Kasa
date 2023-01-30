@@ -11,10 +11,10 @@ import bannerAbout from '../../assets/banner-about.png';
 /* Props to pass datas in Banner and Collapse children components */
 function About() {
     return (
-        <div>
+        <body>
             <Header />
             <main>
-                <Banner imagebanner={bannerAbout} title="" />;
+                <Banner imagebanner={bannerAbout} title="" />
                 <section>
                     <Collapse
                         title="Fiabilité"
@@ -35,7 +35,7 @@ function About() {
                 </section>
             </main>
             <Footer />
-        </div>
+        </body>
     );
 }
 

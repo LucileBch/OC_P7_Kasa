@@ -11,18 +11,17 @@ import bannerHome from '../../assets/banner-home.png';
 /* Props to pass datas in Banner child component */
 function Home() {
     return (
-        <div>
+        <body>
             <Header />
             <main>
                 <Banner
                     imagebanner={bannerHome}
                     title="Chez vous, partout et ailleurs"
                 />
-                ;
                 <Card />
             </main>
             <Footer />
-        </div>
+        </body>
     );
 }
 

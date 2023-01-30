@@ -22,7 +22,7 @@ function Logement() {
     if (!appartDisplay) return <Error />;
 
     return (
-        <div>
+        <body>
             <Header />
             <section>
                 <div>
@@ -57,7 +57,7 @@ function Logement() {
             </section>
 
             <Footer />
-        </div>
+        </body>
     );
 }
 

@@ -26,7 +26,7 @@ function Collapse({ title, content }) {
                     <img src={arrowDown} alt="opening arrow" />
                 )}
             </div>
-            {isOpen && <div>{content}</div>}
+            {isOpen && <p>{content}</p>}
         </article>
     );
 }
