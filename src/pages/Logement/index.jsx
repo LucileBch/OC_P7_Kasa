@@ -1,3 +1,7 @@
+/***     LOGEMENT PAGE     ***/
+
+/* Importing useParams to get the ad Id in URL and appartList to get the ad infos */
+/* Importing Header, Slider, Tag, Rate, Collapse and Footer components and Error page */
 import { useParams } from 'react-router-dom';
 import { appartList } from '../../datas/appartList';
 import Header from '../../components/Header';
@@ -8,6 +12,9 @@ import Collapse from '../../components/Collapse';
 import Footer from '../../components/Footer';
 import Error from '../../pages/Error';
 
+/* Logement function to display the page */
+/* Using .find to check if the id is existing in order to display the Error page if its not the case */
+/* Props to pass datas in Slider, Tag, Rate and Collapse children components */
 function Logement() {
     const { id } = useParams();
     const appartDisplay = appartList.find((appart) => appart.id === id);
@@ -54,4 +61,5 @@ function Logement() {
     );
 }
 
+/* Exporting Logement page */
 export default Logement;

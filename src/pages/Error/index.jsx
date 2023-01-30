@@ -1,8 +1,12 @@
+/***     404 ERROR PAGE     ***/
+
+/* Importing Link to navigate and Header and Footer components */
 import { Link } from 'react-router-dom';
-import '../../styles/Error.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import '../../styles/Error.css';
 
+/* Error function to display the page */
 function Error() {
     return (
         <body>
@@ -23,4 +27,5 @@ function Error() {
     );
 }
 
+/* Exporting Error page */
 export default Error;

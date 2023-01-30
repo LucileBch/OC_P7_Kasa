@@ -1,8 +1,13 @@
+/***     INDEX     ***/
+
+/* Importing react librairies*/
+/* Importing App component (routing logic) and basic main style*/
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
 import App from './components/App/index.jsx';
+import './styles/index.css';
 
+/* Creating root container, rendering the App component */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>

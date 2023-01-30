@@ -1,9 +1,14 @@
+/***     ABOUT PAGE     ***/
+
+/* Importing Header, Banner, Collapse and Footer components and asset */
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
 import Collapse from '../../components/Collapse';
 import Footer from '../../components/Footer';
 import bannerAbout from '../../assets/banner-about.png';
 
+/* About function to display the page */
+/* Props to pass datas in Banner and Collapse children components */
 function About() {
     return (
         <div>
@@ -34,4 +39,5 @@ function About() {
     );
 }
 
+/* Exporting About page */
 export default About;
