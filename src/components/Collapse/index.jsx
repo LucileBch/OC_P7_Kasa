@@ -21,9 +21,17 @@ function Collapse({ title, content }) {
             <div className="collapse-banner" onClick={button}>
                 <h2>{title}</h2>
                 {isOpen ? (
-                    <img src={arrowUp} alt="closing arrow" />
+                    <img
+                        src={arrowUp}
+                        alt="closing arrow"
+                        className="collapse-arrow"
+                    />
                 ) : (
-                    <img src={arrowDown} alt="opening arrow" />
+                    <img
+                        src={arrowDown}
+                        alt="opening arrow"
+                        className="collapse-arrow"
+                    />
                 )}
             </div>
             {isOpen && <p className="collapse-content">{content}</p>}
