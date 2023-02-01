@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
+    margin: 40px auto 63px auto;
     max-width: 1920px;
-    padding: 25px 80px;
+    width: 90%;
 }
 
 .kasa-header-logo {
@@ -36,12 +36,11 @@
 
 @media screen and (max-width: 768px) {
     .kasa-header {
-        margin: 20px;
-        padding: 0;
+        margin: 20px auto 16px auto;
     }
 
     .kasa-header-logo {
-        width: 130px;
+        width: 145px;
     }
 
     .kasa-header-list {
