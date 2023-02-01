@@ -43,3 +43,18 @@
     bottom: 5%;
     left: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .left-arrow,
+    .right-arrow {
+        width: 5%;
+        top: 45%;
+    }
+    .slider-picture {
+        height: 255px;
+    }
+
+    .slider-index {
+        display: none;
+    }
+}
