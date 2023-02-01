@@ -1,57 +1,46 @@
-.banner-home {
+.banner {
+    max-width: 1920px;
+    margin: 0 auto 43px auto;
     display: flex;
     justify-content: center;
-    margin: 38px auto 33px auto;
-    max-width: 1920px;
-    width: 90%;
-    height: 223px;
-    border-radius: 25px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url('../assets/banner-home.png');
-    background-size: 100% 100%;
+    align-items: center;
+    text-align: center;
 }
 
-.banner-home h2 {
+.banner h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 68px;
-    margin: 78px 0;
     color: #ffffff;
+    position: absolute;
+    width: 80%;
 }
 
-.banner-about {
-    display: flex;
-    justify-content: center;
-    margin: 68px auto 43px auto;
+.banner-picture {
     width: 90%;
-    max-width: 1920px;
     height: 223px;
     border-radius: 25px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url('../assets/banner-about.png');
-    background-size: 100% 100%;
+    object-fit: cover;
+    filter: brightness(75%);
 }
 
 @media screen and (max-width: 768px) {
-    .banner-home {
+    .banner {
+        margin: 0 auto 22px auto;
+        text-align: start;
+    }
+
+    .banner-picture {
         border-radius: 10px;
-        justify-content: flex-start;
-        margin: 28px auto 22px auto;
         height: 111px;
     }
 
-    .banner-home h2 {
+    .banner h2 {
         font-size: 24px;
         line-height: 24px;
-        margin: 30px 0;
-        margin: 30px 102px 30px 16px;
-    }
-
-    .banner-about {
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url('../assets/banner-about-mobile.png');
-        background-size: 100% 100%;
+        left: 10%;
+        right: 30%;
     }
 }
