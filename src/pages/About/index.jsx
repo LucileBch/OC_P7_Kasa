@@ -6,6 +6,7 @@ import Banner from '../../components/Banner';
 import Collapse from '../../components/Collapse';
 import Footer from '../../components/Footer';
 import bannerAbout from '../../assets/banner-about.png';
+import '../../styles/About.css';
 
 /* About function to display the page */
 /* Props to pass datas in Banner and Collapse children components */
@@ -15,7 +16,7 @@ function About() {
             <Header />
             <main>
                 <Banner imagebanner={bannerAbout} title="" />
-                <section>
+                <section className="collapse-container">
                     <Collapse
                         title="Fiabilité"
                         content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."

@@ -1,0 +1,8 @@
+.collapse-container {
+    margin: 0 auto 150px auto;
+    max-width: 1920px;
+    width: 1023px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}

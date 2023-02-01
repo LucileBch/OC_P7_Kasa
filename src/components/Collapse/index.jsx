@@ -17,16 +17,16 @@ function Collapse({ title, content }) {
     };
 
     return (
-        <article className="collapse">
-            <div className="collapse-open" onClick={button}>
-                <h2 className="collapse-title">{title}</h2>
+        <article>
+            <div className="collapse-banner" onClick={button}>
+                <h2>{title}</h2>
                 {isOpen ? (
                     <img src={arrowUp} alt="closing arrow" />
                 ) : (
                     <img src={arrowDown} alt="opening arrow" />
                 )}
             </div>
-            {isOpen && <p>{content}</p>}
+            {isOpen && <p className="collapse-content">{content}</p>}
         </article>
     );
 }
