@@ -1,0 +1,45 @@
+.slider-container {
+    margin: 25px auto 30px auto;
+    max-width: 1920px;
+    width: 92%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
+}
+
+.slider-container__slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-picture {
+    height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.slider-index {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
