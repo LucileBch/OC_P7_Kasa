@@ -1,4 +1,4 @@
-.collapse-banner {
+.collapse-banner_about {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -9,7 +9,18 @@
     padding: 0 20px;
 }
 
-.collapse-banner h2 {
+.collapse-banner_appart {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 52px;
+    align-items: center;
+    background-color: #ff6060;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.collapse-title_about {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -18,7 +29,16 @@
     color: #ffffff;
 }
 
-.collapse-content {
+.collapse-title_appart {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.collapse-content_about {
     background-color: #f7f7f7;
     border-radius: 5px;
     font-family: 'Montserrat';
@@ -30,12 +50,25 @@
     line-height: 34px;
 }
 
+.collapse-content_appart {
+    background-color: #f7f7f7;
+    height: 249px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ff6060;
+    padding: 20px 10px;
+    line-height: 26px;
+}
+
 @media screen and (max-width: 768px) {
-    .collapse-banner {
+    .collapse-banner_about {
         height: 30px;
     }
 
-    .collapse-banner h2 {
+    .collapse-title_about {
         font-size: 13px;
         line-height: 19px;
     }
@@ -43,7 +76,7 @@
         width: 5%;
     }
 
-    .collapse-content {
+    .collapse-content_about {
         font-size: 12px;
         line-height: 17px;
         padding: 20px 10px 50px 10px;

@@ -10,16 +10,22 @@ import '../../styles/Collapse.css';
 /* Hook useState to manage isOpen state */
 /* Handler onClick to open or close the component */
 /* Ternary operator to indicate which infos to display according to the state */
-function Collapse({ title, content }) {
+function Collapse({ title, content, page }) {
     const [isOpen, setIsOpen] = useState(false);
     const button = () => {
         setIsOpen(!isOpen);
     };
+    const banner =
+        page === 'about' ? 'collapse-banner_about' : 'collapse-banner_appart';
+    const titleStyle =
+        page === 'about' ? 'collapse-title_about' : 'collapse-title_appart';
+    const contentStyle =
+        page === 'about' ? 'collapse-content_about' : 'collapse-content_appart';
 
     return (
         <article>
-            <div className="collapse-banner" onClick={button}>
-                <h2>{title}</h2>
+            <div className={banner} onClick={button}>
+                <h2 className={titleStyle}>{title}</h2>
                 {isOpen ? (
                     <img
                         src={arrowUp}
@@ -34,7 +40,7 @@ function Collapse({ title, content }) {
                     />
                 )}
             </div>
-            {isOpen && <p className="collapse-content">{content}</p>}
+            {isOpen && <p className={contentStyle}>{content}</p>}
         </article>
     );
 }
