@@ -1,12 +1,16 @@
 /***     BANNER COMPONENT     ***/
 
+/* Importing Banner style */
 import '../../styles/Banner.css';
 
 /* Function banner using props imagebanner and title */
-function Banner({ imagebanner, title }) {
+function Banner({ imagebanner, title, page }) {
+    const bannerPicture =
+        page === 'about' ? 'banner-picture_about' : 'banner-picture_home';
+
     return (
         <section className="banner">
-            <img src={imagebanner} alt="landscape" className="banner-picture" />
+            <img src={imagebanner} alt="landscape" className={bannerPicture} />
             <h2>{title}</h2>
         </section>
     );

@@ -15,7 +15,7 @@ function About() {
         <div>
             <Header />
             <main>
-                <Banner imagebanner={bannerAbout} title="" />
+                <Banner imagebanner={bannerAbout} title="" page="about" />
                 <section className="collapse-container">
                     <Collapse
                         page="about"

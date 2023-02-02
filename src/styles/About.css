@@ -11,5 +11,6 @@
     .collapse-container {
         margin: 0 auto 100px auto;
         gap: 20px;
+        width: 90%;
     }
 }
