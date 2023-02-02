@@ -52,6 +52,7 @@
     }
     .slider-picture {
         height: 255px;
+        border-radius: 10px;
     }
 
     .slider-index {
