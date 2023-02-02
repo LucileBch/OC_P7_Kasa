@@ -33,17 +33,17 @@ function Logement() {
                     <Tag tags={appartDisplay.tags} />
                 </div>
                 <div className="logement-host">
-                    <div className="logement-host__name">
+                    <div className="logement-profile">
                         <p>{appartDisplay.host.name}</p>
                         <img
                             src={appartDisplay.host.picture}
                             alt="host profile"
                         />
                     </div>
-                    <Rate stars={appartDisplay.rating} />
+                    <Rate stars={appartDisplay.rating} className="host-rate" />
                 </div>
             </section>
-            <section>
+            <section className="infos-container">
                 <Collapse
                     title="Description"
                     content={appartDisplay.description}
