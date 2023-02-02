@@ -1,6 +1,6 @@
 /***     ABOUT PAGE     ***/
 
-/* Importing Header, Banner, Collapse and Footer components and asset */
+/* Importing Header, Banner, Collapse and Footer components, style and asset */
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
 import Collapse from '../../components/Collapse';
