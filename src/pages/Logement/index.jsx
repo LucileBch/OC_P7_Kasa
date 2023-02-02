@@ -51,7 +51,7 @@ function Logement() {
                 <Collapse
                     title="Équipement"
                     content={
-                        <ul>
+                        <ul className="equipment-list">
                             {appartDisplay.equipments.map((equipment) => {
                                 return <li key={equipment}>{equipment}</li>;
                             })}
