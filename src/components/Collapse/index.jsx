@@ -6,7 +6,7 @@ import arrowDown from '../../assets/arrow-down.png';
 import arrowUp from '../../assets/arrow-up.png';
 import '../../styles/Collapse.css';
 
-/* Collapse function  using props title and content */
+/* Collapse function  using props title, content and page */
 /* Hook useState to manage isOpen state */
 /* Handler onClick to open or close the component */
 /* Ternary operator to indicate which infos to display according to the state */
