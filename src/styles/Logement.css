@@ -1,0 +1,30 @@
+.logement-infos {
+    max-width: 1920px;
+    margin: 30px auto 26px auto;
+    width: 90%;
+    display: flex;
+    text-align: start;
+}
+
+.logement-title h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    color: #ff6060;
+}
+
+.logement-title p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ff6060;
+}
+
+.logement-host__name {
+    display: flex;
+    align-items: baseline;
+}

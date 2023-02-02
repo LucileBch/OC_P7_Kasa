@@ -1,7 +1,7 @@
 .slider-container {
     margin: 25px auto 30px auto;
     max-width: 1920px;
-    width: 92%;
+    width: 90%;
     position: relative;
     display: flex;
     flex-direction: column;

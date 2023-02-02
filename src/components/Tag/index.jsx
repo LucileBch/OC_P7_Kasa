@@ -1,12 +1,17 @@
 /***     TAG COMPONENT     ***/
 
+/* Importing Tag style */
+import '../../styles/Tag.css';
+
 /* Tag function using tags prop */
 /* Using .maps to display a list of tags */
 function Tag({ tags }) {
     return (
-        <ul>
+        <ul className="tag-list">
             {tags.map((tag) => (
-                <li key={tag}>{tag}</li>
+                <li key={tag} className="tag-element">
+                    {tag}
+                </li>
             ))}
         </ul>
     );

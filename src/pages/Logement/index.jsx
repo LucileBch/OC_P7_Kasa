@@ -11,6 +11,7 @@ import Rate from '../../components/Rate';
 import Collapse from '../../components/Collapse';
 import Footer from '../../components/Footer';
 import Error from '../../pages/Error';
+import '../../styles/Logement.css';
 
 /* Logement function to display the page */
 /* Using .find to check if the id is existing in order to display the Error page if its not the case */
@@ -25,19 +26,22 @@ function Logement() {
         <div>
             <Header />
             <Slider slides={appartDisplay.pictures} />
-            <section>
+            <section className="logement-infos">
                 <div className="logement-title">
                     <h1>{appartDisplay.title} </h1>
                     <p>{appartDisplay.location}</p>
+                    <Tag tags={appartDisplay.tags} />
                 </div>
-                <div>
-                    <p>{appartDisplay.host.name}</p>
-                    <img src={appartDisplay.host.picture} alt="host profile" />
+                <div className="logement-host">
+                    <div className="logement-host__name">
+                        <p>{appartDisplay.host.name}</p>
+                        <img
+                            src={appartDisplay.host.picture}
+                            alt="host profile"
+                        />
+                    </div>
+                    <Rate stars={appartDisplay.rating} />
                 </div>
-            </section>
-            <section>
-                <Tag tags={appartDisplay.tags} />
-                <Rate stars={appartDisplay.rating} />
             </section>
             <section>
                 <Collapse
