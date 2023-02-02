@@ -1,14 +1,13 @@
 .tag-list {
     display: flex;
     gap: 10px;
-    padding: 0;
+    margin: 20px 0 0 0;
+    padding: 20px 0;
 }
 
 .tag-element {
     background-color: #ff6060;
     color: #ffffff;
-    width: 115px;
-    height: 25px;
     border-radius: 10px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -18,4 +17,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3px 15px;
 }
