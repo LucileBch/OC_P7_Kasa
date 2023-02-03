@@ -40,7 +40,7 @@ function Collapse({ title, content, page }) {
                     />
                 )}
             </div>
-            {isOpen && <p className={contentStyle}>{content}</p>}
+            {isOpen && <div className={contentStyle}>{content}</div>}
         </article>
     );
 }

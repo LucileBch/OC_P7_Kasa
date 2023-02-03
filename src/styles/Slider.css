@@ -53,8 +53,16 @@
     .left-arrow,
     .right-arrow {
         width: 5%;
-        top: 45%;
     }
+
+    .left-arrow {
+        left: 10px;
+    }
+
+    .right-arrow {
+        right: 10px;
+    }
+
     .slider-picture {
         height: 255px;
         border-radius: 10px;
