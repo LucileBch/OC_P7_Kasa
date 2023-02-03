@@ -1,4 +1,15 @@
-.stars {
+.star-list {
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .star-list {
+        gap: 5px;
+    }
+
+    .star {
+        width: 15px;
+        height: 15px;
+    }
 }

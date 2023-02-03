@@ -11,12 +11,22 @@ function Rate({ stars }) {
     const range = [1, 2, 3, 4, 5];
 
     return (
-        <div className="stars">
+        <div className="star-list">
             {range.map((rangeElem, star) =>
                 stars >= rangeElem ? (
-                    <img src={fullStar} alt="pink star" key={star} />
+                    <img
+                        src={fullStar}
+                        alt="pink star"
+                        key={star}
+                        className="star"
+                    />
                 ) : (
-                    <img src={emptyStar} alt="grey star" key={star} />
+                    <img
+                        src={emptyStar}
+                        alt="grey star"
+                        key={star}
+                        className="star"
+                    />
                 )
             )}
         </div>
