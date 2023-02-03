@@ -1,7 +1,7 @@
 /***     INDEX     ***/
 
 /* Importing react librairies*/
-/* Importing App component (routing logic) and basic main style*/
+/* Importing App component (routing logic) and main style*/
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App/index.jsx';
