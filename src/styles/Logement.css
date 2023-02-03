@@ -71,6 +71,8 @@
 @media screen and (max-width: 768px) {
     .logement-infos {
         flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 16px;
     }
 
     .logement-title h1 {
@@ -89,6 +91,9 @@
         justify-content: space-between;
         align-items: center;
     }
+    .logement-profile {
+        margin-bottom: 0;
+    }
 
     .logement-profile p {
         font-size: 12px;
@@ -97,5 +102,11 @@
 
     .logement-profile img {
         width: 32px;
+    }
+
+    .infos-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }

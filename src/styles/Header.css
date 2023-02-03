@@ -45,6 +45,7 @@
 
     .kasa-header-list {
         gap: 10px;
+        padding: 0;
     }
 
     .kasa-link-active,

@@ -68,17 +68,36 @@
         height: 30px;
     }
 
+    .collapse-banner_appart {
+        border-radius: 5px;
+        height: 30px;
+    }
+
     .collapse-title_about {
         font-size: 13px;
         line-height: 19px;
     }
+
+    .collapse-title_appart {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
     .collapse-arrow {
-        width: 5%;
+        width: 3%;
     }
 
     .collapse-content_about {
         font-size: 12px;
         line-height: 17px;
         padding: 20px 10px 50px 10px;
+    }
+
+    .collapse-content_appart {
+        border-radius: 5px;
+        height: 145px;
+        font-size: 12px;
+        line-height: 17px;
+        padding: 23px 12px;
     }
 }
