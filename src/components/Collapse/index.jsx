@@ -1,6 +1,6 @@
 /***     COLLAPSE COMPONENT     ***/
 
-/* Importing useState Hook and assets */
+/* Importing useState Hook, assets and style */
 import { useState } from 'react';
 import arrowDown from '../../assets/arrow-down.png';
 import arrowUp from '../../assets/arrow-up.png';

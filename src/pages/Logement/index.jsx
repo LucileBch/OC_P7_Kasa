@@ -1,7 +1,7 @@
 /***     LOGEMENT PAGE     ***/
 
 /* Importing useParams to get the ad Id in URL and appartList to get the ad infos */
-/* Importing Header, Slider, Tag, Rate, Collapse and Footer components and Error page and stylesheet */
+/* Importing Header, Slider, Tag, Rate, Collapse and Footer components and Error page and style */
 import { useParams } from 'react-router-dom';
 import { appartList } from '../../datas/appartList';
 import Header from '../../components/Header';

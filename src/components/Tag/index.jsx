@@ -1,6 +1,6 @@
 /***     TAG COMPONENT     ***/
 
-/* Importing Tag style */
+/* Importing style */
 import '../../styles/Tag.css';
 
 /* Tag function using tags prop */

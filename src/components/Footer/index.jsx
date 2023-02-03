@@ -1,6 +1,6 @@
 /***     FOOTER COMPONENT     ***/
 
-/* Importing assets */
+/* Importing assets and style */
 import '../../styles/Footer.css';
 import logo from '../../assets/footer-logo.svg';
 

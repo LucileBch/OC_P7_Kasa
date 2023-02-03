@@ -1,6 +1,6 @@
 /***     SLIDER COMPONENT     ***/
 
-/* Importing useMemo and useSate hooks, and assets */
+/* Importing useMemo and useSate hooks, assets and style */
 import { useMemo } from 'react';
 import { useState } from 'react';
 import arrowLeft from '../../assets/arrow-left.png';

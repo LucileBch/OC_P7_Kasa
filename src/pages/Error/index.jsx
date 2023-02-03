@@ -1,6 +1,6 @@
 /***     404 ERROR PAGE     ***/
 
-/* Importing Link to navigate and Header and Footer components */
+/* Importing Link to navigate, Header and Footer components and style */
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';

@@ -1,6 +1,6 @@
 /***     RATE COMPONENT     ***/
 
-/* Importing assets */
+/* Importing assets and style */
 import fullStar from '../../assets/full-star.png';
 import emptyStar from '../../assets/empty-star.png';
 import '../../styles/Rate.css';

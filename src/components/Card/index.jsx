@@ -1,6 +1,6 @@
 /***     CARD COMPONENT     ***/
 
-/* Importing NavLink for the navigation and appartList to get the datas */
+/* Importing NavLink for the navigation, appartList to get the datas  and style*/
 import { NavLink } from 'react-router-dom';
 import { appartList } from '../../datas/appartList';
 import '../../styles/Card.css';
