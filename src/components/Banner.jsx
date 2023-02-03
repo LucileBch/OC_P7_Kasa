@@ -1,7 +1,7 @@
 /***     BANNER COMPONENT     ***/
 
 /* Importing Banner style */
-import '../../styles/Banner.css';
+import '../styles/Banner.css';
 
 /* Function banner using props imagebanner, title and page */
 function Banner({ imagebanner, title, page }) {
@@ -11,7 +11,7 @@ function Banner({ imagebanner, title, page }) {
     return (
         <section className="banner">
             <img src={imagebanner} alt="landscape" className={bannerPicture} />
-            <h2>{title}</h2>
+            <h1>{title}</h1>
         </section>
     );
 }

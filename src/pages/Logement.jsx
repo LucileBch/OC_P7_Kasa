@@ -3,15 +3,15 @@
 /* Importing useParams to get the ad Id in URL and appartList to get the ad infos */
 /* Importing Header, Slider, Tag, Rate, Collapse and Footer components and Error page and style */
 import { useParams } from 'react-router-dom';
-import { appartList } from '../../datas/appartList';
-import Header from '../../components/Header';
-import Slider from '../../components/Slider';
-import Tag from '../../components/Tag';
-import Rate from '../../components/Rate';
-import Collapse from '../../components/Collapse';
-import Footer from '../../components/Footer';
-import Error from '../../pages/Error';
-import '../../styles/Logement.css';
+import { appartList } from '../datas/appartList';
+import Header from '../components/Header';
+import Slider from '../components/Slider';
+import Tag from '../components/Tag';
+import Rate from '../components/Rate';
+import Collapse from '../components/Collapse';
+import Footer from '../components/Footer';
+import Error from '../pages/Error';
+import '../styles/Logement.css';
 
 /* Logement function to display the page */
 /* Using .find to check if the id is existing in order to display the Error page if its not the case */

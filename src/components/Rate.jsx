@@ -1,9 +1,9 @@
 /***     RATE COMPONENT     ***/
 
 /* Importing assets and style */
-import fullStar from '../../assets/full-star.png';
-import emptyStar from '../../assets/empty-star.png';
-import '../../styles/Rate.css';
+import fullStar from '../assets/full-star.png';
+import emptyStar from '../assets/empty-star.png';
+import '../styles/Rate.css';
 
 /* Rate function using prop stars */
 /* Using range.map to compare each number with the number of stars and display full and/or empty stars*/

@@ -2,8 +2,8 @@
 
 /* Importing NavLink to navigate, asset and style */
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/header-logo.svg';
-import '../../styles/Header.css';
+import logo from '../assets/header-logo.svg';
+import '../styles/Header.css';
 
 /* Header function */
 function Header() {

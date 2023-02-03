@@ -2,8 +2,8 @@
 
 /* Importing NavLink for the navigation, appartList to get the datas  and style*/
 import { NavLink } from 'react-router-dom';
-import { appartList } from '../../datas/appartList';
-import '../../styles/Card.css';
+import { appartList } from '../datas/appartList';
+import '../styles/Card.css';
 
 /* Card function using props id, title and cover */
 /* Using .map to get a new array of appartList with the selected elements */
@@ -18,7 +18,7 @@ function Card({ id, title, cover }) {
                             alt={`${title} cover`}
                             className="card-img"
                         ></img>
-                        <h3 className="card-title">{title}</h3>
+                        <h2 className="card-title">{title}</h2>
                     </article>
                 </NavLink>
             ))}

@@ -3,9 +3,9 @@
 /* Importing useMemo and useSate hooks, assets and style */
 import { useMemo } from 'react';
 import { useState } from 'react';
-import arrowLeft from '../../assets/arrow-left.png';
-import arrowRight from '../../assets/arrow-right.png';
-import '../../styles/Slider.css';
+import arrowLeft from '../assets/arrow-left.png';
+import arrowRight from '../assets/arrow-right.png';
+import '../styles/Slider.css';
 
 /* Slider function using slides prop */
 /* Hook useState to manage current slide index */

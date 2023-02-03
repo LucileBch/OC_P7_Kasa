@@ -1,7 +1,7 @@
 /***     TAG COMPONENT     ***/
 
 /* Importing style */
-import '../../styles/Tag.css';
+import '../styles/Tag.css';
 
 /* Tag function using tags prop */
 /* Using .maps to display a list of tags */

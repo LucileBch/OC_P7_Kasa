@@ -2,10 +2,10 @@
 
 /* Importing React routes and the different pages */
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../../pages/Home';
-import Logement from '../../pages/Logement';
-import About from '../../pages/About';
-import Error from '../../pages/Error';
+import Home from '../pages/Home';
+import Logement from '../pages/Logement';
+import About from '../pages/About';
+import Error from '../pages/Error';
 
 /* Routing function */
 function App() {

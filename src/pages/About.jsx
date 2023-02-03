@@ -1,12 +1,12 @@
 /***     ABOUT PAGE     ***/
 
 /* Importing Header, Banner, Collapse and Footer components, asset and style */
-import Header from '../../components/Header';
-import Banner from '../../components/Banner';
-import Collapse from '../../components/Collapse';
-import Footer from '../../components/Footer';
-import bannerAbout from '../../assets/banner-about.png';
-import '../../styles/About.css';
+import Header from '../components/Header';
+import Banner from '../components/Banner';
+import Collapse from '../components/Collapse';
+import Footer from '../components/Footer';
+import bannerAbout from '../assets/banner-about.png';
+import '../styles/About.css';
 
 /* About function to display the page */
 /* Props to pass datas in Banner and Collapse children components */

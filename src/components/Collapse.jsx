@@ -2,9 +2,9 @@
 
 /* Importing useState Hook, assets and style */
 import { useState } from 'react';
-import arrowDown from '../../assets/arrow-down.png';
-import arrowUp from '../../assets/arrow-up.png';
-import '../../styles/Collapse.css';
+import arrowDown from '../assets/arrow-down.png';
+import arrowUp from '../assets/arrow-up.png';
+import '../styles/Collapse.css';
 
 /* Collapse function  using props title, content and page */
 /* Hook useState to manage isOpen state */
