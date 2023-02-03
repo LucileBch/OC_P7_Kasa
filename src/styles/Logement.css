@@ -24,6 +24,7 @@
     line-height: 26px;
     color: #ff6060;
 }
+
 .logement-host {
     display: flex;
     flex-direction: column;
@@ -66,5 +67,35 @@
 .equipment-list {
     padding: 0;
 }
+
 @media screen and (max-width: 768px) {
+    .logement-infos {
+        flex-direction: column;
+    }
+
+    .logement-title h1 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+
+    .logement-title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .logement-host {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logement-profile p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .logement-profile img {
+        width: 32px;
+    }
 }
