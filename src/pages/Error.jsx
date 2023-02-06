@@ -1,6 +1,7 @@
 /***     404 ERROR PAGE     ***/
 
-/* Importing Link to navigate, Header and Footer components and style */
+/* Importing useEffect, Link to navigate, Header and Footer components and style */
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,6 +9,10 @@ import '../styles/Error.css';
 
 /* Error function to display the page */
 function Error() {
+    useEffect(() => {
+        document.title = 'Page not found';
+    }, []);
+
     return (
         <div>
             <Header />
