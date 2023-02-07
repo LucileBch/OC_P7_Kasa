@@ -2,7 +2,7 @@
 
 /* Importing useEffect, Link to navigate, Header and Footer components and style */
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/Error.css';
@@ -22,9 +22,9 @@ function Error() {
                     <h2 className="error-msg">
                         Oups la page que vous demandez n'existe pas.
                     </h2>
-                    <Link to="/" className="error-link">
+                    <NavLink to="/" className="error-link">
                         Retourner sur la page d'accueil
-                    </Link>
+                    </NavLink>
                 </section>
             </main>
             <Footer />

@@ -6,7 +6,7 @@ import emptyStar from '../assets/empty-star.png';
 import '../styles/Rate.css';
 
 /* Rate function using prop stars */
-/* Using range.map to compare each number with the number of stars and display full and/or empty stars*/
+/* Using range.map to compare each number with the number of stars and display full and/or empty stars */
 function Rate({ stars }) {
     const range = [1, 2, 3, 4, 5];
 
